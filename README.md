@@ -63,16 +63,20 @@ Below is the heatmap
     <li>odometer            0.501800</li>
     <li>year                0.497975</li>
      <li>trans_other         0.413729</li>
-<li>trans_automatic     0.381101</li>
-<li>Cyl_4 cylinders     0.346049</li>
-<li>drive_fwd           0.320430</li>
-<li>Cond_excellent      0.299612</li>
-<li>Cond_good           0.298148</li>
-<li>type_pickup         0.255464</li>
-<li>Cyl_8 cylinders     0.233088</li>
-<li>fuel_gas            0.225181</li>
-<li>type_sedan          0.202864</li>
+    <li>trans_automatic     0.381101</li>
+    <li>Cyl_4 cylinders     0.346049</li>
+    <li>drive_fwd           0.320430</li>
+    <li>Cond_excellent      0.299612</li>
+    <li>Cond_good           0.298148</li>
+    <li>type_pickup         0.255464</li>
+    <li>Cyl_8 cylinders     0.233088</li>
+    <li>fuel_gas            0.225181</li>
+    <li>type_sedan          0.202864</li>
 </ul>
+
+One interesting observation from heat map was condition- Excellent was not as influenceial as I thougth, but condition -good was better influenceing price.
+The next steps was to conduct both Ridge and Linear regressions with various alphas and identify feature importances.
+![image](https://github.com/NippaniP/Used-Car-Price-Prediction/assets/157237232/7fa4a70c-3b24-4841-9ac6-398cbaa4a744)
 
 
 ## Results
