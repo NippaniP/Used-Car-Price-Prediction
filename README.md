@@ -1,4 +1,4 @@
-# Goal : Used Car price - ML Model
+alution# Goal : Used Car price - ML Model
 Goal of this project is to understand what factors make a car more or less expensive. As a result of this analysis, the project tries to provide recommendations to client as to what consumers value in a used car.
 
 To frame the task, throughout our practical applications I referred back to a standard process in industry for data projects called CRISP-DM. This process provides a framework for working through a data problem. 
@@ -79,11 +79,15 @@ The next steps was to conduct both Ridge and Linear regressions with various alp
 ![image](https://github.com/NippaniP/Used-Car-Price-Prediction/assets/157237232/7fa4a70c-3b24-4841-9ac6-398cbaa4a744)
 
 
-## Results
+## Evaluation
 The best model used for this project was a linear regressor with a degree 2 polynomial complexity with a ridge cross validator. Using permutation importance, the following vehicle features were identified as important for predicting the target variable (price):
 <ul>
     <li>Odomoeter reading</li>
     <li>Year</li>
-    <li>4WD</li>
-    <li></li>
+    <li>fwd</li>
+    <li>cylinders </li>
+    <li>transmission</li>
+    <li>cylinders</li>
+    <li>fuel</li>
+    <li>4wd</li>
 </ul>
