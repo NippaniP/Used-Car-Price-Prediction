@@ -54,8 +54,13 @@ This is the final clean dataset column counts with.
 
 
 
-## Analysis
-After initial analysis of data,  
+## Modeling
+The next step is to apply various regresion models on the data. But first a simple heatmap of correlation matrix was produced to see how the numeric data is related to price.
+Below is the heatmap
+![image](https://github.com/NippaniP/Used-Car-Price-Prediction/assets/157237232/4a483f58-3836-4540-b31a-7ffa7a0008f8)
+
+
+
 ## Results
 The best model used for this project was a linear regressor with a degree 2 polynomial complexity with a ridge cross validator. Using permutation importance, the following vehicle features were identified as important for predicting the target variable (price):
 <ul>
