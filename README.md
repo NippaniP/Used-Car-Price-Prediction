@@ -58,7 +58,21 @@ This is the final clean dataset column counts with.
 The next step is to apply various regresion models on the data. But first a simple heatmap of correlation matrix was produced to see how the numeric data is related to price.
 Below is the heatmap
 ![image](https://github.com/NippaniP/Used-Car-Price-Prediction/assets/157237232/4a483f58-3836-4540-b31a-7ffa7a0008f8)
-
+ Based on the heat map and correlation matrix, below are the top 7 features that influeneced price.
+ <ul>
+    <li>odometer            0.501800</li>
+    <li>year                0.497975</li>
+     <li>trans_other         0.413729</li>
+<li>trans_automatic     0.381101</li>
+<li>Cyl_4 cylinders     0.346049</li>
+<li>drive_fwd           0.320430</li>
+<li>Cond_excellent      0.299612</li>
+<li>Cond_good           0.298148</li>
+<li>type_pickup         0.255464</li>
+<li>Cyl_8 cylinders     0.233088</li>
+<li>fuel_gas            0.225181</li>
+<li>type_sedan          0.202864</li>
+</ul>
 
 
 ## Results
