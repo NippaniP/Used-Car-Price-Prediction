@@ -1,0 +1,1 @@
+Goal of this project is to understand what factors make a car more or less expensive. As a result of this analysis, the project tries to provide clear recommendations to client as to what consumers value in a used car.
