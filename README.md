@@ -1,4 +1,4 @@
-alution# Goal : Used Car price - ML Model
+# Goal : Used Car price - ML Model
 Goal of this project is to understand what factors make a car more or less expensive. As a result of this analysis, the project tries to provide recommendations to client as to what consumers value in a used car.
 
 To frame the task, throughout our practical applications I referred back to a standard process in industry for data projects called CRISP-DM. This process provides a framework for working through a data problem. 
