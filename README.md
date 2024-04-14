@@ -62,7 +62,7 @@ Below is the heatmap
  <ul>
     <li>odometer            0.501800</li>
     <li>year                0.497975</li>
-     <li>trans_other         0.413729</li>
+    <li>trans_other         0.413729</li>
     <li>trans_automatic     0.381101</li>
     <li>Cyl_4 cylinders     0.346049</li>
     <li>drive_fwd           0.320430</li>
@@ -80,14 +80,20 @@ The next steps was to conduct both Ridge and Linear regressions with various alp
 
 
 ## Evaluation
-The best model used for this project was a linear regressor with a degree 2 polynomial complexity with a ridge cross validator. Using permutation importance, the following vehicle features were identified as important for predicting the target variable (price):
+The best model used for this project was a linear regressor. Using permutation importance, the following vehicle features were identified as important for predicting the target variable (price):
 <ul>
-    <li>Odomoeter reading</li>
     <li>Year</li>
-    <li>fwd</li>
-    <li>cylinders </li>
-    <li>transmission</li>
-    <li>cylinders</li>
-    <li>fuel</li>
-    <li>4wd</li>
+    <li>Odomoeter reading</li>
+    <li>fuel-diseal</li>
 </ul>
+Now that the model is ready, I did cross validate with KFold with 5 splits resulting with Mean MSE: 2.312078501944397e+25.
+
+### Deployment
+Although to get the best anlaysis on what cars sell fast and have lowest days in inventory, data related to "days in lot/your inventory" would have been great, but given the data based on price and other attributes, below are the key recommendation for the used car delearship : 
+- Tune your inventory based on following features:
+    1. Stock recent cars with recent "Year"
+    2. Stock cars that have lowest mileage/odometer readings
+    3. Stock recent cars with recent "Diseal" fuel as they have higher prices
+    4. "FWD" categroy of cars have higher prices
+    5. Pay attention to "8 cylinder" cars as they have higher prices
+    6. pickup trucks also play an imporant role in price and should be stocked up
