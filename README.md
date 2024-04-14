@@ -76,15 +76,18 @@ Below is the heatmap
 
 One interesting observation from heat map was condition- Excellent was not as influenceial as I thougth, but condition -good was better influenceing price.
 The next steps was to conduct both Ridge and Linear regressions with various alphas and identify feature importances.
-![image](https://github.com/NippaniP/Used-Car-Price-Prediction/assets/157237232/7fa4a70c-3b24-4841-9ac6-398cbaa4a744)
+
 
 
 ## Evaluation
-The best model used for this project was a linear regressor. Using permutation importance, the following vehicle features were identified as important for predicting the target variable (price):
+The best model used for this project was a linear regressor. Using permutation importance, the following vehicle features were identified as important for predicting the target variable (price):![image](https://github.com/NippaniP/Used-Car-Price-Prediction/assets/157237232/7fa4a70c-3b24-4841-9ac6-398cbaa4a744)
 <ul>
     <li>Year</li>
     <li>Odomoeter reading</li>
     <li>fuel-diseal</li>
+    <li>FWD</li>
+    <li>8 cylinder</li>
+    <li>pick up</li>
 </ul>
 Now that the model is ready, I did cross validate with KFold with 5 splits resulting with Mean MSE: 2.312078501944397e+25.
 
